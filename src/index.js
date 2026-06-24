@@ -1,6 +1,5 @@
 import Home from "./home.js";
-
-// Load home content on initial page load
+import "./style.css";
 Home();
 
 const buttons = document.querySelectorAll("button");
