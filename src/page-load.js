@@ -8,9 +8,9 @@ const pageLoad = () => {
     menu.textContent = "Menu";
     contact.textContent = "Contact";
 
-    parentElement.appendChild(home);
-    parentElement.appendChild(menu);
-    parentElement.appendChild(contact);
+    parentElement.prepend(home);
+    parentElement.prepend(menu);
+    parentElement.prepend(contact);
 };
 
 export default pageLoad;
