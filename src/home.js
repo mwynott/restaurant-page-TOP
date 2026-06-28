@@ -13,10 +13,20 @@ const Home = () => {
     home_info.textContent = `This is filler text for the restaurant where some info
     about when it was established, what kind of food they serve, and whatever else
     might endear the restaurant to prospective customers!`;
+
+    const hours = document.createElement("div");
+    hours.classList.add("hours");
+    hours.textContent = "Hours:\nMon-Sat: 11AM - 11PM\nSun: 11AM - 8PM"
+
+    const location = document.createElement("div");
+    location.classList.add("location");
+    location.textContent = "123 Eatery Way, Flavortown, MA"
     
     parentElement.appendChild(home_grid);
     home_grid.appendChild(home_heading);
     home_grid.appendChild(home_info);
+    home_grid.appendChild(hours);
+    home_grid.appendChild(location);
 }
 
 export default Home;

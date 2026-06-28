@@ -5,7 +5,7 @@ const Menu = () => {
     section.classList.add("menu-section");
 
     const heading = document.createElement("h2");
-    section.classList.add("menu-heading");
+    heading.classList.add("menu-heading");
     heading.textContent="Our Menu";
   
     const grid = document.createElement("div");
