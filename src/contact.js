@@ -6,7 +6,7 @@ const Contact = () => {
 
     const contactHeading = document.createElement("h2");
     contactHeading.classList.add("contactHeading");
-    contactHeading.textContent = "Get in touch with us!";
+    contactHeading.textContent = `Call now for hot and fresh delivery or your next party!`;
 
     const contactInfo = document.createElement("div");
     contactInfo.classList.add("contactInfo");

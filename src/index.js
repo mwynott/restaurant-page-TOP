@@ -13,7 +13,7 @@ buttons.forEach(button => {
       Home();
     } else if (event.target.textContent === "Menu") {
       import("./menu.js").then(module => module.default());
-    } else if (event.target.textContent === "Contact") {
+    } else if (event.target.textContent === "Contact / Catering") {
       import("./contact.js").then(module => module.default());
     }
   });

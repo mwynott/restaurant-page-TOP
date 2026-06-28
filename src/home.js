@@ -16,8 +16,6 @@ const Home = () => {
         This is a second paragraph doing the same as above, perhaps assuring the customer
         that while times have changed, our recipe hasn't!`;
 
-
-
     const hours = document.createElement("div");
     hours.classList.add("hours");
     hours.textContent = "Hours:\nMon-Sat: 11AM - 11PM\nSun: 11AM - 8PM"
