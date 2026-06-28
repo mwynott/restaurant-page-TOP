@@ -6,13 +6,17 @@ const Home = () => {
 
     const home_heading = document.createElement("h2");
     home_heading.classList.add("home_heading");
-    home_heading.textContent = "Welcome to our restaurant! We serve the best food in town.";
+    home_heading.textContent = "Welcome to Restaurant Name! We serve the best pizza in town!";
 
     const home_info = document.createElement("div");
     home_info.classList.add("home_info");
     home_info.textContent = `This is filler text for the restaurant where some info
-    about when it was established, what kind of food they serve, and whatever else
-    might endear the restaurant to prospective customers!`;
+    about when it was established, what kind of pizza they serve, and whatever else
+    might endear the restaurant to prospective customers!\n
+        This is a second paragraph doing the same as above, perhaps assuring the customer
+        that while times have changed, our recipe hasn't!`;
+
+
 
     const hours = document.createElement("div");
     hours.classList.add("hours");
